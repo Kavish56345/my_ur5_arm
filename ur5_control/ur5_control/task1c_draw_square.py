@@ -49,7 +49,7 @@ class PickAndPlace(Node):
         self.tolerance = 0.02  
 
         self.start_servo()
-        self.jog_timer = self.create_timer(0.1, self.publish_joint_jog)
+        # self.jog_timer = self.create_timer(0.1, self.publish_joint_jog)
 
         self.timer_period = 1.0 / 125  # 125 Hz
         self.side_duration = 2.0  # seconds per side
